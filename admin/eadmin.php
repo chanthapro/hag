@@ -1,7 +1,7 @@
 <?php
-//session_start();
+session_start();
 if (!isset($_SESSION["txtuname"])) {
-//    header("location:index.php");
+    header("location:index.php");
 }
 ?>
 <!--<button type="button" class="btn btn-primary btn-block aqua-gradient"><h3 class="text-center">Welcome to Admin Page-->

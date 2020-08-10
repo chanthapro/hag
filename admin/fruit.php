@@ -90,7 +90,7 @@ if (isset($_POST['btnedit'])) {
 }
 include('header.php');
 ?>
-
+<?php include_once("eadmin.php"); ?>
 
 <script type="text/javascript">
     tinymce.init({
@@ -110,7 +110,6 @@ include('header.php');
         image_advtab: true,
         images_upload_url: 'service/UploadFileService.php',
         images_upload_handler: function (blobInfo, success, failure) {
-            console.log(blobInfo.filename())
             var xhr, formData;
             xhr = new XMLHttpRequest();
             xhr.withCredentials = false;
@@ -166,7 +165,7 @@ include('header.php');
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12 m-0 p-0 cover1">
-            <?php include_once("eadmin.php"); ?>
+
         </div>
     </div>
 
