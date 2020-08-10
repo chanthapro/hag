@@ -1,0 +1,33 @@
+.div1 {
+/*
+    background-color: blueviolet;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    padding: 10px;
+*/
+}
+
+
+.div1:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.cover1 {
+/*    box-shadow: 0px 0px 5px #000000;*/
+/*	overflow: hidden;*/
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+tr {
+/*    height: 10px;*/
+}

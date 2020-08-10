@@ -1,0 +1,28 @@
+.formStyle{
+    padding: 10px;
+}
+.uploadImage{
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.uploadStyle{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-radius: 4px;
+    background-image: url("../../../img/default.jpg");
+}
+.cancelButton{
+    display: flex;
+    justify-content: flex-end;
+}
+.searchBox{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
