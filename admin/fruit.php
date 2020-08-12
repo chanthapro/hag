@@ -92,7 +92,7 @@ include('header.php');
 ?>
 <?php include_once("eadmin.php"); ?>
 
-<script type="text/javascript">
+<script>
     tinymce.init({
         selector: "textarea",
         theme: "modern",
@@ -145,9 +145,6 @@ include('header.php');
             title: 'Test template 2',
             content: 'Test 2'
         }]
-    });
-    $(document).ready(function () {
-        $('#example').dataTable;
     });
 </script>
 <style>
